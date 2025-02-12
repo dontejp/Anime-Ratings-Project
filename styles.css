@@ -1,12 +1,44 @@
 html{
-    background-color:#f8ffe5;
+    background-color: #FFCDB2;
 }
-.show-image{
-    margin-left: 41%;
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
-h3{
-    font-size: 300%;
-    font-weight: 50;
+
+.card{
+    background-color: #FFB4A2;
+    max-height: auto;
+    width: 50%;
+    align-self: center;
+}
+.card-content{
+    background-color:#E5989B ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-image{
+    float: left;
+    padding: 5%
+}
+
+.card-title{
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+}
+.card-description{
+    font-size: 30px;
+    max-width: 30%;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+.card-score{
+    font-size: 60px;
     text-align: center;
 }
 img{
